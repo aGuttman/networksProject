@@ -1,5 +1,5 @@
 \documentclass[11pt,twocolumn]{article}
-\setlength{\columnsep}{2em}
+%\setlength{\columnsep}{2em}
 \usepackage{times}
 \usepackage{graphicx}
 \usepackage{amssymb}
@@ -125,7 +125,7 @@ Each partitions Senators into four communities. The character of the communities
     \caption{{Communities of Senators by career history when not considering previous office.\newline Group 1 is a mix of mostly professional, nonprofit and administrative careers. \newline Group 2 is characterized by careers that focus on law. \newline Group 3 is characterized by a mix of business and real estate careers. \newline Group 4 is characterized by careers that focus almost exclusively on fiance.}}
     \label{fig:ds}
 \end{figure}
-
+\pagebreak
 We will now examine each of the nine key votes that met our criteria for bipartisan votes with bipartisan dissent. Dissenting votes will have the following form: Name(group when considering office/group when not considering office)
 \begin{enumerate}
 \item
@@ -220,55 +220,43 @@ Finally, let's look at career archetype and party affiliation. The numbers from 
 	
 	A relatively small thing worth looking into is the apparent lean of medical professionals turned Senators to be Republican. While the rightward tilt of finance and real estate don't seem surprising, I would generally assume that doctors and surgeons are pretty politically neutral professions. I would be curious to see if this holds up or is just an outlier of this particular configuration of the Senate.
 	
-	Finally, the exact workings of community detention by maximizing modularity might be something to play with. By default, we return the communities that produce the absolute maximum modularity found, which makes sense, but, as we can see below, there are other modularity scores that are very close to it. To reuse a previous example, for HJ Res 123 there where $11/14 = 78\%$ Senators are from group 2, which we decided was not significant because group 2 accounted for $68\%$ of all Senators. However, if all those Senators from group 2 were actually all within a smaller group previously that was merged into group 2, that might have been significant. By checking the smaller communities from fewer mergers, some significant trend might fall out.
+	Finally, the exact workings of community detention by maximizing modularity might be something to play with. By default, we return the communities that produce the absolute maximum modularity found, which makes sense, but, as we can see below, there are other modularity scores that are very close to maximum with less merges. To reuse a previous example, for HJ Res 123 there were $11/14 = 78\%$ Senators from group 2, which we decided was not significant because group 2 accounted for $68\%$ of all Senators. However, if all those Senators from group 2 were actually all within a smaller group previously that was merged into group 2, that might have been significant. By checking the smaller communities from fewer mergers, some significant trend might fall out.
 		
 \begin{figure}[H]
     \centering
-    \includegraphics[width=2.2in]{qvm_w_office}
+    \includegraphics[width=2.1in]{qvm_w_office}
     \caption{Modularity score Q vs number of merges, considering previous office.}
     \label{fig:ds}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=2.2in]{qvm_no_office}
+    \includegraphics[width=2.1in]{qvm_no_office}
     \caption{Modularity score Q vs number of merges, not considering previous office.}
     \label{fig:ds}
 \end{figure}
 	\section{References}
 	\subsection{Data Sources}
+	\begin{enumerate}
+	\item
 	\url{https://en.wikipedia.org/w/index.php?title=List_of_current_United_States_senators&oldid=875789149}
-	
-	\url{https://en.wikipedia.org/wiki/Jeff_Sessions}
-	
-	\url{https://en.wikipedia.org/wiki/Al_Franken}
-	
-	\url{https://en.wikipedia.org/wiki/Luther_Strange}
-	
-	\url{https://en.wikipedia.org/wiki/Thad_Cochran}
-	
-	\url{https://en.wikipedia.org/wiki/John_McCain}
-	
-	\url{https://ballotpedia.org/Key_votes:_115th_Congress,_2017-2018}
-	
-	\url{https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00212#position}
-	
-	\url{https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00207#position}
-	
-	\url{https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00063#position}
-	
-	\url{https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00031#position}
-	
-	\url{https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00017#position}
-	
-	\url{https://www.congress.gov/bill/115th-congress/house-joint-resolution/123/history?q=%7B%22search%22%3A%5B%22israel+aid%22%5D%7D}
-	
-	\url{https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=1&vote=00199#position}
-
-	\url{https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=1&vote=00175#position}
-	
-	\url{https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=1&vote=00147#position}
-	
+	\item\url{https://en.wikipedia.org/wiki/Jeff_Sessions}
+	\item\url{https://en.wikipedia.org/wiki/Al_Franken}
+	\item\url{https://en.wikipedia.org/wiki/Luther_Strange}
+	\item\url{https://en.wikipedia.org/wiki/Thad_Cochran}
+	\item\url{https://en.wikipedia.org/wiki/John_McCain}
+	\item\url{https://ballotpedia.org/Key_votes:_115th_Congress,_2017-2018}
+	\item\url{https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00212#position}
+	\item\url{https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00207#position}
+	\item\url{https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00063#position}
+	\item\url{https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00031#position}
+	\item\url{https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=2&vote=00017#position}
+	\item\url{https://www.congress.gov/bill/115th-congress/house-joint-resolution/123/history?q=%7B%22search%22%3A%5B%22israel+aid%22%5D%7D}
+	\item\url{https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=1&vote=00199#position}
+	\item\url{https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=1&vote=00175#position}
+	\item\url{https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=115&session=1&vote=00147#position}
+	\end{enumerate}
 	\subsection{Project Repo}
+	\url{https://github.com/aGuttman/networksProject}
 \bibliographystyle{abbrv}
 \bibliography{refs}
 \end{document}

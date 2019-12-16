@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  15 DEC 2019 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  15 DEC 2019 18:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -371,23 +371,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<comm_dis_w_office.png, id=82, 462.528pt x 346.896pt>
+<comm_dis_w_office.png, id=86, 462.528pt x 346.896pt>
 File: comm_dis_w_office.png Graphic file (type png)
 <use comm_dis_w_office.png>
 Package pdftex.def Info: comm_dis_w_office.png  used on input line 103.
 (pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
-<comm_dis_no_office.png, id=84, 462.528pt x 346.896pt>
+<comm_dis_no_office.png, id=88, 462.528pt x 346.896pt>
 File: comm_dis_no_office.png Graphic file (type png)
 <use comm_dis_no_office.png>
 Package pdftex.def Info: comm_dis_no_office.png  used on input line 110.
 (pdftex.def)             Requested size: 180.67499pt x 135.5059pt.
-<comm_office.png, id=85, 343.2825pt x 699.61375pt>
+<comm_office.png, id=89, 343.2825pt x 699.61375pt>
 File: comm_office.png Graphic file (type png)
 <use comm_office.png>
 Package pdftex.def Info: comm_office.png  used on input line 117.
 (pdftex.def)             Requested size: 231.26378pt x 471.31151pt.
 
-Overfull \hbox (7.7138pt too wide) in paragraph at lines 117--118
+Overfull \hbox (1.76378pt too wide) in paragraph at lines 117--118
  [][] 
  []
 
@@ -406,56 +406,61 @@ l.121
        <./comm_dis_w_office.png> <./comm_dis_no_office.png>]
 Overfull \vbox (91.88191pt too high) has occurred while \output is active []
 
-<comm_no_office.png, id=94, 352.31625pt x 511.9125pt>
+<comm_no_office.png, id=98, 352.31625pt x 511.9125pt>
 File: comm_no_office.png Graphic file (type png)
 <use comm_no_office.png>
 Package pdftex.def Info: comm_no_office.png  used on input line 124.
 (pdftex.def)             Requested size: 231.26378pt x 336.01987pt.
 
-Overfull \hbox (7.7138pt too wide) in paragraph at lines 124--125
+Overfull \hbox (1.76378pt too wide) in paragraph at lines 124--125
  [][] 
  []
 
-[5pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
-has been already used, duplicate ignored
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.130 \begin{enumerate}
-                       pdfTeX warning (ext4): destination with the same identif
-ier (name{figure.4}) has been already used, duplicate ignored
+l.129 W
+       e will now examine each of the nine key votes that met our criteria f...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.130 \begin{enumerate}
-                        <./comm_office.png> <./comm_no_office.png>]
-Underfull \hbox (badness 6876) in paragraph at lines 134--135
-[]\OT1/ptm/m/n/10.95 Jeff Flake(2/1), Mike Lee(2/2) , Rand
+l.129 W
+       e will now examine each of the nine key votes that met our criteria f...
+ <./comm_office.png> <./comm_no_office.png>]
+Underfull \hbox (badness 1648) in paragraph at lines 139--140
+[]\OT1/ptm/m/n/10.95 Jeff Flake(2/1), Kirsten Gilli-brand(2/2), Ed
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
-\OT1/ptm/m/n/10.95 Paul(4/1), David Per-due(3/3), Bernie
+Underfull \hbox (badness 1735) in paragraph at lines 144--145
+[]\OT1/ptm/m/n/10.95 John Bar-rasso(4/1), Cory Booker(2/2), Bill
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
-\OT1/ptm/m/n/10.95 Sanders(1/1), Ben Sasse(2/1), Pat
- []
-
-
-Underfull \hbox (badness 2020) in paragraph at lines 144--145
+Underfull \hbox (badness 4391) in paragraph at lines 144--145
 \OT1/ptm/m/n/10.95 Cas-sidy(4/1), Bob Corker(2/3), Tom Cot-
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 144--145
+Underfull \hbox (badness 3118) in paragraph at lines 144--145
 \OT1/ptm/m/n/10.95 ton(2/2), Mike Crapo(2/2), Ted Cruz(2/2),
  []
 
 
-Underfull \hbox (badness 4872) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 \OT1/ptm/m/n/10.95 Steve Daines(3/3), Mike Enzi(3/1), Joni
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 144--145
+\OT1/ptm/m/n/10.95 Ernst(2/1), Di-anne Fe-in-stein(2/1), Deb Fis-
  []
 
 
@@ -464,27 +469,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--145
  []
 
 
-Underfull \hbox (badness 3792) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 \OT1/ptm/m/n/10.95 John Kennedy(1/1), James Lank-ford(2/1),
  []
 
 
-Underfull \hbox (badness 7030) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 \OT1/ptm/m/n/10.95 Mike Lee(2/2), Ed Markey(2/2), Claire
  []
 
 
-Underfull \hbox (badness 6876) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 \OT1/ptm/m/n/10.95 Mc-Caskill(2/2), Jeff Merkley(3/1), Rand
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 144--145
+Underfull \hbox (badness 3646) in paragraph at lines 144--145
 \OT1/ptm/m/n/10.95 Bernie Sanders(1/1), Ben Sasse(2/1), Dan
  []
 
 
-Underfull \hbox (badness 3701) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 \OT1/ptm/m/n/10.95 Sul-li-van(2/2), Thom Tillis(2/1), Eliz-a-beth
  []
 
@@ -499,57 +504,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--150
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-\OT1/ptm/m/n/10.95 Bill Cas-sidy(4/1), Bob Corker(2/3),
+Underfull \hbox (badness 4303) in paragraph at lines 149--150
+\OT1/ptm/m/n/10.95 Bill Cas-sidy(4/1), Bob Corker(2/3), Mike
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-\OT1/ptm/m/n/10.95 Mike Crapo(2/2), Steve Daines(3/3),
+Underfull \hbox (badness 6542) in paragraph at lines 149--150
+\OT1/ptm/m/n/10.95 Gilli-brand(2/1), Chuck Grass-ley(2/1), Ka-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-\OT1/ptm/m/n/10.95 Mike Enzi(3/1), Di-anne Fe-in-stein(2/1),
+Underfull \hbox (badness 3128) in paragraph at lines 149--150
+\OT1/ptm/m/n/10.95 mala Har-ris(2/2), Mazie Hi-rono(2/2), Ron
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-\OT1/ptm/m/n/10.95 Jeff Flake(2/1), Kirsten Gilli-brand(2/1),
- []
-
-
-Underfull \hbox (badness 3354) in paragraph at lines 149--150
-\OT1/ptm/m/n/10.95 Chuck Grass-ley(2/1), Ka-mala Har-ris(2/2),
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-\OT1/ptm/m/n/10.95 Mazie Hi-rono(2/2), Ron John-son(3/1),
- []
-
-
-Underfull \hbox (badness 3792) in paragraph at lines 149--150
-\OT1/ptm/m/n/10.95 John Kennedy(1/1), James Lank-ford(2/1),
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-\OT1/ptm/m/n/10.95 Mike Lee(2/2), Ed Markey(2/2), Jeff
- []
-
-
-Underfull \hbox (badness 3000) in paragraph at lines 149--150
+Underfull \hbox (badness 5985) in paragraph at lines 149--150
 \OT1/ptm/m/n/10.95 Bernie Sanders(1/1), Ben Sasse(2/1), Pat
  []
 
 
-Underfull \hbox (badness 3260) in paragraph at lines 149--150
+Underfull \hbox (badness 7558) in paragraph at lines 149--150
 \OT1/ptm/m/n/10.95 Toomey(2/4), Eliz-a-beth War-ren(2/1), Ron
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 154--155
+Underfull \hbox (badness 1009) in paragraph at lines 154--155
+[]\OT1/ptm/m/n/10.95 Richard Blu-men-thal(2/1), Cory Booker(2/2),
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 154--155
+\OT1/ptm/m/n/10.95 Cather-ine Cortez Masto(2/2), Di-anne Fe-in-
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 154--155
 \OT1/ptm/m/n/10.95 stein(2/2), Kirsten Gilli-brand(2/2), Ka-mala
  []
 
@@ -564,6 +554,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--155
  []
 
 
+Underfull \hbox (badness 1448) in paragraph at lines 154--155
+\OT1/ptm/m/n/10.95 Chris Mur-phy(2/2), Rand Paul(4/1), Bernie
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 154--155
 \OT1/ptm/m/n/10.95 Sanders(1/1), Jon Tester(3/1), Eliz-a-beth
  []
@@ -574,8 +569,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--160
  []
 
 
+Underfull \hbox (badness 2547) in paragraph at lines 159--160
+\OT1/ptm/m/n/10.95 Ernst(2/1), Kirsten Gilli-brand(2/2), Ka-mala
+ []
+
+
+Underfull \hbox (badness 7047) in paragraph at lines 159--160
+\OT1/ptm/m/n/10.95 Ed Markey(2/2), John Mc-Cain(2/1), Jeff
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 159--160
-\OT1/ptm/m/n/10.95 Ernst(2/1), Kirsten Gilli-brand(2/2), Ka-
+\OT1/ptm/m/n/10.95 Merkley(3/1), Mike Rounds(3/3), Bernie
  []
 
 
@@ -584,12 +589,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--160
  []
 
 
-Underfull \hbox (badness 4927) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 []\OT1/ptm/m/n/10.95 Bob Corker(2/3), Kirsten Gilli-brand(2/2),
  []
 
 
-Underfull \hbox (badness 5985) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 \OT1/ptm/m/n/10.95 Patrick Leahy(2/2), Mike Lee(2/2), Jeff
  []
 
@@ -599,45 +604,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--165
  []
 
 [6]
-Underfull \hbox (badness 3417) in paragraph at lines 181--183
-[]\OT1/ptm/m/n/10.95 Of the nine votes, the fol-low-ing Sen-a-tors
+Underfull \hbox (badness 2970) in paragraph at lines 167--168
+[]\OT1/ptm/m/n/10.95 Countering Amer-ica's Ad-ver-saries Through
  []
 
 
-Underfull \hbox (badness 4013) in paragraph at lines 181--183
-\OT1/ptm/m/n/10.95 ap-peared in the bi-par-ti-san mi-nor-ity in more
+Underfull \hbox (badness 1354) in paragraph at lines 186--187
+[]\OT1/ptm/m/n/10.95 Susan Collins, Joe Don-nelly, John Booz-man,
  []
 
 
-Underfull \hbox (badness 4036) in paragraph at lines 181--183
-\OT1/ptm/m/n/10.95 than half of them: Rand Paul(4/1), Bernie
+Underfull \hbox (badness 1406) in paragraph at lines 186--187
+\OT1/ptm/m/n/10.95 Duck-worth, Ben Cardin, Joe Manchin, Richard
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--183
-\OT1/ptm/m/n/10.95 Sanders(1/1), Kirsten Gilli-brand(2/2), Mike
+Underfull \hbox (badness 2635) in paragraph at lines 186--187
+\OT1/ptm/m/n/10.95 Luther Strange, Jim In-hofe, Jeff Ses-sions, Al
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--183
-\OT1/ptm/m/n/10.95 Lee(2/2), Jeff Merkley(3/1), Eliz-a-beth War-
+Underfull \hbox (badness 1292) in paragraph at lines 186--187
+\OT1/ptm/m/n/10.95 Heitkamp, John Thune, Mitch Mc-Connell, Roy
  []
 
-
-Underfull \hbox (badness 1308) in paragraph at lines 186--187
-\OT1/ptm/m/n/10.95 Marco Ru-bio, Doug Jones, Brian Schatz, Jon
- []
-
-
-Underfull \hbox (badness 1077) in paragraph at lines 186--187
-\OT1/ptm/m/n/10.95 Schumer, An-gus King, Amy Klobuchar, Lind-
- []
-
-<major.png, id=114, 508.90125pt x 158.5925pt>
+<major.png, id=118, 508.90125pt x 158.5925pt>
 File: major.png Graphic file (type png)
 <use major.png>
 Package pdftex.def Info: major.png  used on input line 191.
 (pdftex.def)             Requested size: 216.81pt x 67.56667pt.
+
+Underfull \hbox (badness 1014) in paragraph at lines 192--192
+[]\OT1/ptm/m/n/10.95 Figure 5: []Number of Sen-a-tors who never vote
+ []
+
 [7pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) 
 has been already used, duplicate ignored
 
@@ -645,14 +645,11 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.197 
        <./major.png>]
-<rep_dem.png, id=126, 416.55624pt x 236.885pt>
+<rep_dem.png, id=130, 416.55624pt x 236.885pt>
 File: rep_dem.png Graphic file (type png)
 <use rep_dem.png>
 Package pdftex.def Info: rep_dem.png  used on input line 200.
 (pdftex.def)             Requested size: 216.81pt x 123.29657pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [8pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
  has been already used, duplicate ignored
 
@@ -660,43 +657,52 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
                                                   \fi \fi 
 l.215 	
         <./rep_dem.png>]
-<qvm_w_office.png, id=133, 462.528pt x 346.896pt>
+<qvm_w_office.png, id=137, 462.528pt x 346.896pt>
 File: qvm_w_office.png Graphic file (type png)
 <use qvm_w_office.png>
 Package pdftex.def Info: qvm_w_office.png  used on input line 227.
-(pdftex.def)             Requested size: 158.99377pt x 119.2452pt.
-<qvm_no_office.png, id=134, 462.528pt x 346.896pt>
+(pdftex.def)             Requested size: 151.76744pt x 113.82497pt.
+<qvm_no_office.png, id=138, 462.528pt x 346.896pt>
 File: qvm_no_office.png Graphic file (type png)
 <use qvm_no_office.png>
 Package pdftex.def Info: qvm_no_office.png  used on input line 233.
-(pdftex.def)             Requested size: 158.99377pt x 119.2452pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.237 	\section
-               {References} <./qvm_w_office.png>]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 239.
+(pdftex.def)             Requested size: 151.76744pt x 113.82497pt.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 241.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
-[]$\OT1/pcr/m/n/10.95 https : / / en . wikipedia . org / w / index .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
-\OT1/pcr/m/n/10.95 php ? title = List _ of _ current _ United _
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
+[][]$\OT1/pcr/m/n/10.95 https : / / en . wikipedia . org /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 241--242
+\OT1/pcr/m/n/10.95 w / index . php ? title = List _ of _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
+\OT1/pcr/m/n/10.95 current _ United _ States _ senators &
+ []
+
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.242 	\item\url
+                {https://en.wikipedia.org/wiki/Jeff_Sessions}pdfTeX warning (ex
+t4): destination with the same identifier (name{figure.8}) has been already use
+d, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.242 	\item\url
+                {https://en.wikipedia.org/wiki/Jeff_Sessions} <./qvm_w_office.p
+ng> <./qvm_no_office.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 [][]$\OT1/pcr/m/n/10.95 https : / / en . wikipedia . org / wiki /
  []
 
@@ -706,210 +712,248 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--244
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+[][]$\OT1/pcr/m/n/10.95 https : / / en . wikipedia . org / wiki /
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 245--246
 [][]$\OT1/pcr/m/n/10.95 https : / / en . wikipedia . org / wiki /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 [][]$\OT1/pcr/m/n/10.95 https : / / en . wikipedia . org / wiki /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+[][]$\OT1/pcr/m/n/10.95 https : / / ballotpedia . org /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+\OT1/pcr/m/n/10.95 Key _ votes : _115th _ Congress ,[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+[][]$\OT1/pcr/m/n/10.95 https : / / www . senate . gov /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+\OT1/pcr/m/n/10.95 legislative / LIS / roll _ call _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+\OT1/pcr/m/n/10.95 lists / roll _ call _ vote _ cfm . cfm ?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+\OT1/pcr/m/n/10.95 congress = 115 & session = 2 & vote =
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 249--250
-[][]$\OT1/pcr/m/n/10.95 https : / / en . wikipedia . org / wiki /
+[][]$\OT1/pcr/m/n/10.95 https : / / www . senate . gov /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+\OT1/pcr/m/n/10.95 legislative / LIS / roll _ call _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+\OT1/pcr/m/n/10.95 lists / roll _ call _ vote _ cfm . cfm ?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+\OT1/pcr/m/n/10.95 congress = 115 & session = 2 & vote =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+[][]$\OT1/pcr/m/n/10.95 https : / / www . senate . gov /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+\OT1/pcr/m/n/10.95 legislative / LIS / roll _ call _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+\OT1/pcr/m/n/10.95 lists / roll _ call _ vote _ cfm . cfm ?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+\OT1/pcr/m/n/10.95 congress = 115 & session = 2 & vote =
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 251--252
-[][]$\OT1/pcr/m/n/10.95 https : / / ballotpedia . org / Key _
+[][]$\OT1/pcr/m/n/10.95 https : / / www . senate . gov /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+\OT1/pcr/m/n/10.95 legislative / LIS / roll _ call _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+\OT1/pcr/m/n/10.95 lists / roll _ call _ vote _ cfm . cfm ?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+\OT1/pcr/m/n/10.95 congress = 115 & session = 2 & vote =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+[][]$\OT1/pcr/m/n/10.95 https : / / www . senate . gov /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+\OT1/pcr/m/n/10.95 legislative / LIS / roll _ call _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+\OT1/pcr/m/n/10.95 lists / roll _ call _ vote _ cfm . cfm ?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+\OT1/pcr/m/n/10.95 congress = 115 & session = 2 & vote =
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 253--254
-[][]$\OT1/pcr/m/n/10.95 https : / / www . senate . gov /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
-\OT1/pcr/m/n/10.95 legislative / LIS / roll _ call _ lists /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
-\OT1/pcr/m/n/10.95 roll _ call _ vote _ cfm . cfm ? congress =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
-[][]$\OT1/pcr/m/n/10.95 https : / / www . senate . gov /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
-\OT1/pcr/m/n/10.95 legislative / LIS / roll _ call _ lists /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
-\OT1/pcr/m/n/10.95 roll _ call _ vote _ cfm . cfm ? congress =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
-[][]$\OT1/pcr/m/n/10.95 https : / / www . senate . gov /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
-\OT1/pcr/m/n/10.95 legislative / LIS / roll _ call _ lists /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
-\OT1/pcr/m/n/10.95 roll _ call _ vote _ cfm . cfm ? congress =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
-[][]$\OT1/pcr/m/n/10.95 https : / / www . senate . gov /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
-\OT1/pcr/m/n/10.95 legislative / LIS / roll _ call _ lists /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
-\OT1/pcr/m/n/10.95 roll _ call _ vote _ cfm . cfm ? congress =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
-[][]$\OT1/pcr/m/n/10.95 https : / / www . senate . gov /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
-\OT1/pcr/m/n/10.95 legislative / LIS / roll _ call _ lists /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
-\OT1/pcr/m/n/10.95 roll _ call _ vote _ cfm . cfm ? congress =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
 [][]$\OT1/pcr/m/n/10.95 https : / / www . congress .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 \OT1/pcr/m/n/10.95 gov / bill / 115th-[]congress /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 \OT1/pcr/m/n/10.95 house-[]joint-[]resolution / 123 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
-\OT1/pcr/m/n/10.95 history ? q = %7B % 22search % 22 % 3A % 5B %
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+\OT1/pcr/m/n/10.95 history ? q = %7B % 22search % 22 % 3A %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
 [][]$\OT1/pcr/m/n/10.95 https : / / www . senate . gov /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
-\OT1/pcr/m/n/10.95 legislative / LIS / roll _ call _ lists /
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+\OT1/pcr/m/n/10.95 legislative / LIS / roll _ call _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
-\OT1/pcr/m/n/10.95 roll _ call _ vote _ cfm . cfm ? congress =
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+\OT1/pcr/m/n/10.95 lists / roll _ call _ vote _ cfm . cfm ?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+\OT1/pcr/m/n/10.95 congress = 115 & session = 1 & vote =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
 [][]$\OT1/pcr/m/n/10.95 https : / / www . senate . gov /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
-\OT1/pcr/m/n/10.95 legislative / LIS / roll _ call _ lists /
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+\OT1/pcr/m/n/10.95 legislative / LIS / roll _ call _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
-\OT1/pcr/m/n/10.95 roll _ call _ vote _ cfm . cfm ? congress =
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+\OT1/pcr/m/n/10.95 lists / roll _ call _ vote _ cfm . cfm ?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+\OT1/pcr/m/n/10.95 congress = 115 & session = 1 & vote =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
 [][]$\OT1/pcr/m/n/10.95 https : / / www . senate . gov /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
-\OT1/pcr/m/n/10.95 legislative / LIS / roll _ call _ lists /
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+\OT1/pcr/m/n/10.95 legislative / LIS / roll _ call _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
-\OT1/pcr/m/n/10.95 roll _ call _ vote _ cfm . cfm ? congress =
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+\OT1/pcr/m/n/10.95 lists / roll _ call _ vote _ cfm . cfm ?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+\OT1/pcr/m/n/10.95 congress = 115 & session = 1 & vote =
  []
 
 No file asd.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
-[10pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
- has been already used, duplicate ignored
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.274 \end{document}
-                     <./qvm_no_office.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
+Underfull \hbox (badness 10000) in paragraph at lines 259--262
+[]$\OT1/pcr/m/n/10.95 https : / / github . com / aGuttman /
+ []
+
+[10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
  (./asd.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 274.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 274.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
+Package rerunfilecheck Info: File `asd.out' has not changed.
+(rerunfilecheck)             Checksum: 93F212B637E8848ECBCFDA46A056C665;621.
 
-
-Package rerunfilecheck Warning: File `asd.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `asd.out':
-(rerunfilecheck)             Before: DE6A1D08CCF170CD44FE94C22CF1D297;559
-(rerunfilecheck)             After:  93F212B637E8848ECBCFDA46A056C665;621.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 274.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
  ) 
 Here is how much of TeX's memory you used:
- 6314 strings out of 492616
- 89971 string characters out of 6129482
- 187335 words of memory out of 5000000
- 10096 multiletter control sequences out of 15000+600000
+ 6331 strings out of 492616
+ 90099 string characters out of 6129482
+ 190335 words of memory out of 5000000
+ 10097 multiletter control sequences out of 15000+600000
  18862 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,7n,28p,1074b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,7n,28p,1074b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
 ive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2019
 /texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dis
 t/fonts/type1/urw/times/utmr8a.pfb>
-Output written on asd.pdf (10 pages, 760603 bytes).
+Output written on asd.pdf (10 pages, 761626 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 201 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 272 PDF objects out of 1000 (max. 8388607)
+ 236 compressed objects within 3 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
