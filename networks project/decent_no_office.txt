@@ -1,0 +1,131 @@
+"Department of Defense and Labor, Health and Human Services, and Education Appropriations Act, 2019" (HR 6157)
+Jeff Flake	1
+Mike Lee	2
+Rand Paul	1
+David Perdue	3
+Bernie Sanders	1
+Ben Sasse	1
+Pat Toomey	4
+
+"Energy and Water, Legislative Branch, and Military Construction and Veterans Affairs Appropriations Act, 2019" (HR 5895)
+Jeff Flake	1
+Kirsten Gillibrand	2
+Ed Markey	2
+Rand Paul	1
+Elizabeth Warren	1
+
+Consolidated Appropriations Act, 2018 (HR 1625)
+John Barrasso	1
+Cory Booker	2
+Bill Cassidy	1
+Bob Corker	3
+Tom Cotton	2
+Mike Crapo	2
+Ted Cruz	2
+Steve Daines	3
+Mike Enzi	1
+Joni Ernst	1
+Dianne Feinstein	1
+Deb Fischer	1
+Jeff Flake	1
+Cory Gardner	3
+Kirsten Gillibrand	2
+Chuck Grassley	1
+Kamala Harris	2
+Ron Johnson	1
+John Kennedy	1
+James Lankford	1
+Mike Lee	2
+Ed Markey	2
+Claire McCaskill	2
+Jeff Merkley	1
+Rand Paul	1
+David Perdue	3
+Jim Risch	1
+Bernie Sanders	1
+Ben Sasse	1
+Dan Sullivan	2
+Thom Tillis	1
+Elizabeth Warren	1
+
+The Bipartisan Budget Act of 2018 (HR 1892)
+Michael Bennet	1
+Cory Booker	2
+Richard Burr	1
+Maria Cantwell	3
+Bill Cassidy	1
+Bob Corker	3
+Mike Crapo	2
+Steve Daines	3
+Mike Enzi	1
+Dianne Feinstein	1
+Jeff Flake	1
+Kirsten Gillibrand	2
+Chuck Grassley	1
+Kamala Harris	2
+Mazie Hirono	2
+Ron Johnson	1
+John Kennedy	1
+James Lankford	1
+Mike Lee	2
+Ed Markey	2
+Jeff Merkley	1
+Rand Paul	1
+Jim Risch 1
+Bernie Sanders 1
+Ben Sasse	1
+Pat Toomey	4
+Elizabeth Warren	1
+Ron Wyden	1
+
+Further Additional Continuing Appropriations Act, 2018 (HR 195)
+Richard Blumenthal	1
+Cory Booker	2
+Catherine Cortez Masto	2
+Dianne Feinstein	1
+Kirsten Gillibrand	2
+Kamala Harris	2
+Mazie Hirono	2
+Patrick Leahy	2
+Mike Lee	2
+Ed Markey	2
+Bob Menendez	2
+Jeff Merkley	1
+Chris Murphy	2
+Rand Paul	1
+Bernie Sanders	1
+Jon Tester	1
+Elizabeth Warren	1
+Ron Wyden	1
+
+"A joint resolution making further continuing appropriations for fiscal year 2018, and for other purposes." (HJ Res 123)
+Cory Booker	2
+Ted Cruz	2
+Joni Ernst	1
+Kirsten Gillibrand	2
+Kamala Harris	2
+Mazie Hirono	2
+Mike Lee	2
+Ed Markey	2
+John McCain	1
+Jeff Merkley	1
+Mike Rounds	3
+Bernie Sanders	1
+Ben Sasse	1
+Elizabeth Warren	1
+
+National Defense Authorization Act for Fiscal Year 2018 (HR 2810)
+Bob Corker	3
+Kirsten Gillibrand	2
+Patrick Leahy	2
+Mike Lee	2
+Jeff Merkley	1
+Rand Paul	1
+
+Countering America's Adversaries Through Sanctions Act (HR 3364)
+Rand Paul	1
+Bernie Sanders	1
+
+Countering Iran's Destabilizing Activities Act of 2017 (S 722)
+Rand Paul	1
+Bernie Sanders	1

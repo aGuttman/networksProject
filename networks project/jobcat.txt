@@ -1,0 +1,91 @@
+Accountant	professional
+Air Force Reserve officer	military
+Army Reserve officer	military
+Army officer	military
+Banker	finance
+Business consultant	consultant
+Business founder	entrepreneurial
+Businessperson	business
+CBO analyst, Defense Department	professional
+CEO	business
+Carpenter	trade
+Chief of staff to the Governor of Minnesota	political
+College career counselor	professional
+College professor	academic
+Consultant	consultant
+Corporate executive	business
+Currency trader	finance
+Delaware Office of Economic Development	admin
+Director, state Board of Regents educational information center	admin
+Entrepreneur	entrepreneurial
+Farmer	agricultural
+Filmmaker	media
+Financial adviser	finance
+Financial advisor	finance
+Governor Buddy Roemer	political
+Governor's General Counsel	political
+House staffer	political
+Insurance agent	professional
+Jackson County Assistant Prosecutor	law
+Journalist	media
+Lawyer	law
+Leadership training consultant	consultant
+Lecturer	academic
+Lobbyist	political
+Magazine editor	media
+Management consultant	consultant
+Marine Corps Reserve Sergeant	military
+Marine Corps rifleman	military
+Marketing Vice President	business
+Media	media
+Medical chief of staff	medical
+Member, United States Army Reserve	military
+Military	military
+Missionary	religious
+Music teacher	professional
+National Guard officer	military
+Naval intelligence officer	military
+Non-profit organization fellow	nonprofit
+Nonprofit organization executive	nonprofit
+Nonprofit program director	nonprofit
+Ophthalmologist	medical
+Optometrist	medical
+Orthopedic surgeon	medical
+Physician	medical
+Political campaign manager	political
+Printer	media
+Professor	academic
+Property manager	real estate
+Public School Administrator	admin
+Public relations consultant	consultant
+Public television news program host	media
+Rancher	agricultural
+Real estate broker	real estate
+Real estate developer	real estate
+Regional director, SBA	admin
+Research associate	academic
+Researcher	academic
+Restaurant owner	entrepreneurial
+Sales manager	professional
+Senate staffer	political
+Social worker	professional
+Staff of Louisiana Governor Buddy Roemer	political
+Staff supervisor, Rotary International	professional
+State Railroad Director	admin
+Stock trader	finance
+Stockbroker	finance
+Teacher	professional
+U.S. Air Force officer	military
+U.S. House staffer	political
+U.S. Marine officer	military
+U.S. Navy officer	military
+U.S. Senate staff MemberMaryland Governor's legislative advisor	political
+U.S. Senate staff MemberU.S. House staff member	political
+U.S. Senate staff member	political
+United States Army officer	military
+United States Marine Corps officer	military
+University president	admin
+Venture capitalist	entrepreneurial
+Writer	media
+lobbyist	political
+Judge Advocate	law

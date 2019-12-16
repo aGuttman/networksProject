@@ -1,0 +1,136 @@
+\documentclass[11pt]{article}
+
+\newcommand{\numpy}{{\tt numpy}}    % tt font for numpy
+
+\topmargin -.5in
+\textheight 9in
+\oddsidemargin -.25in
+\evensidemargin -.25in
+\textwidth 7in
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{makecell}
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\lstset{language=Python}
+
+\usepackage{amsfonts} 
+
+\renewcommand\theadalign{bc}
+\renewcommand\theadfont{\bfseries}
+\renewcommand\theadgape{\Gape[4pt]}
+\renewcommand\cellgape{\Gape[4pt]}
+
+\begin{document}
+
+% ========== Edit your name here
+\author{Andrew Guttman}
+\title{CSCI 5352 Project\\Senatorial Career Archetypes and Bipartisan Voting}
+\maketitle
+
+\medskip
+
+% ========== Begin answering questions here
+\begin{enumerate}
+	\item Abstract
+	A popular topic in political discussion is that of party polarization, where party positions become more and more extreme, leaving little agreed upon. This is generally considered an unfavorable trend leading to deadlock in governing processes. One way of observing this polarization is by viewing voting results of representative bodies and seeing how the "for" and "against" votes conform to party lines. In this study we observe United States Senate votes from the 115th session of congress (January 3, 2017, to January 3, 2019) to find when this trend in bucked, when there is both bipartisan support and bipartisan opposition on a vote, and attempt to determine if there is any similarity in pre-senatorial career histories from Senators who crossed party lines to vote the same that might explain this atypical behavior. Unfortunately, we do not find significant evidence that career history has an effect on these votes.
+	\item Introduction
+	
+	As discussed, political polarization is generally considered negative. By finding examples when this polarization is overcome, we might identify patterns that correspond to bipartisan agreement. The possible pattern being considered in this study is career history; whether similar careers before being a Senator might influence people to a certain type of agreement on issues despite the general position taken by the Senator's political party.
+	
+In order to answer the question of whether or not similar career history corresponds with crossing party lines to vote in a similar fashion to others with a similar history, we first need to identify what similar career history means. Here we will gather data about the Senators serving in the 115th congress, categorize the major occupations they had before joining the Senate and create links between Senators that shared positions in the same category. With this network of Senators and the jobs that join them, we will attempt to find communities of similar career paths, coming up with some number of archetypal senatorial careers.
+	
+With these career archetypes, we can then identify key votes that demonstrate the desired bipartisan qualities we are looking for and see if the Senators who cast those votes belong to the same archetypes. If so, this would suggest that certain archetypal careers are either selected by or influence someone to a certain type of non-partisan thinking about specific issues.
+	\item Data
+	
+	Data for the Senators of the 115th congress was gathered from the Wikipedia page "List of current United States senators", (archived from December 29th, 2018) including name, party affiliation and occupational history including previous offices. While Wikipedia is crowd-sourced and thus unaccountable and prone to error, the simple factual information of such public and highly scrutinized figures was assumed to be accurate enough for our purposes. Since there was turnover during the course of the 115th session of congress, data on five Senators, Jeff Sessions, Al Franken, Luther Strange, Thad Cochran and John McCain, was not included on the page and was assembled by hand from each respective person's Wikipedia page.
+	
+The non-profit online political encyclopedia Ballotpedia was used to identify votes to be considered in the study. Ballotpedia reports itself to be non-partisan and is written and maintained by a staff and researchers. They themselves identify 42 senatorial votes as important to understanding Senator's positions during the 115th congress on the page "Key votes: 115th Congress, 2017-2018" defining the term key votes as "votes that help citizens understand where their legislators stand on major policy issues." Of these votes, nine were selected for having bipartisan majority votes and bipartisan minority dissenting votes. Once these nine votes were identified, the actual voting records were retrieved from Congress.gov, the official online records of the proceedings of congress.
+	\item Methods
+	
+	With this data, we need to extract the key pieces of information. This information comes in two ways, job history and voting history.
+
+The 105 people who served on the Senate of the 115th congress together had 91 unique job titles in the data for occupations, excluding the various public offices each might have held. In order to facilitate the construction of archetypal pre-Senate careers, categories of jobs needed to be made so that similar jobs with different titles could be grouped together. To this end 18 categories were decided on by human judgment from simply looking though all the listed jobs. The legitimacy of the following analysis is contingent on the legitimacy of the categorization so the categories and explanations/justifications are given in detail:
+
+\begin{enumerate}
+\item Academic: Those teaching or conducting research at universities.
+
+\item Administrative: Those holding some sort of public but non-elected office that oversees and regulates important affairs. Could reasonably be called a bureaucrat, but that phase has a certain political charge this is not intended to be invoked.
+
+\item Agricultural: Those who has listed occupations of "farmer", "rancher" or something similar. The exact nature of the work was not investigated and thus left to it's own category as being a farmer might mean working land to simply owning it and could not be fit into the appropriate category corresponding to that relation.
+
+\item Business: Any type of officer or executive position in the private sector when not explicitly involved with the creation of the company worked for.
+
+\item Consultant: Due to the vagueness and potentially far reaching work of consulting, all consultant jobs where put here regardless of specialty.
+
+\item Entrepreneurial: Those explicitly involved in the founding, owning and funding of companies.
+
+\item Finance: Jobs around banking, trading and advising on trading.
+
+\item Law: Lawyers and judges.
+
+\item Media: Those involved in the creation of media, be it journalistic, artistic, commercial, etc.
+
+\item Medical: Doctors and surgeons.
+
+\item Military: Any type of military service. Any branch, officer, enlisted, active or reserve.
+
+\item Nonprofit: Administrative or executive positions in the nonprofit sector.
+
+\item Political: Staffers/advisers for office holders or any type of campaign work when not the candidate. 
+
+\item Professional: Educated jobs general considered steady careers not covered specifically by another category. Examples include accounts, teachers.
+
+\item Real estate: Developing and brokering real estate.
+
+\item Religious: Missionary or pastoral job.
+
+\item Trade: Skilled but not necessarily educated work. Craftsmen.
+
+\item Previous elected office: Any type of public elected office.
+\end{enumerate}
+
+Other considerations could have been made, for example, type of elected office, (executive, legislative), level of governance (city, state, national), but this is what was decided on. Given the overwhelming prevalence of Senators holding previous offices, (all but four did) there was worry that these office connections would overpower other underlying structures when attempting community detention. Because of this all following analysis took two branches, considering previously held office and not considering previously held office.
+
+With job categories fixed, a bipartite network was created with two types of nodes, Senators and job categories. Edges where drawn between nodes if a Senator had ever held a job corresponding to a job category. Multi-edges were not considered. Once the bipartite network was created, it was one-mode projected. This creates a network of Senators as nodes and edges between Senators representing that they both worked a job in the same category.
+
+With this network of Senators we attempt to find any underlying community structure. To this end, we implemented an efficient greedy agglomerative algorithm to maximize modularity. That is, it tries to create groups in the network that have a high destiny of edges that go from a node in the group to another node in the group and a low destiny of edges going from nodes across groups. While this is typically applied to social networks of some kind where there is assumed to be a community structure, there is nothing stopping us from applying this technique to try to unveil community structure hidden in something not traditionally considered a community. With these community divisions found we can then look at voting records to determine if Senators votes have any correspondence.
+
+Selecting what votes to look at is itself an important process. Here, we decided to find votes where there is a bipartisan majority vote coupled with a bipartisan minority vote. (For this study, we are considering the two independent Senators Bernie Sanders and Angus King as Democrats, the party both caucus with.) The reason we are interested in this class of votes in particular is because of what they represent in the political context.
+
+Votes that have a bipartisan majority are typically producorial in nature and relatively noncontroversial. When someone votes against these, there is little chance that the vote will fail and the Senator knows this. The assumption we are making is that they are not trying to stop the resolution, but trying to make a point. If Senators from opposing parties cross the party consensus on the same vote, we are making a simplifying assumption that they are making the same or related points, thus are roughly aligned in a specific issue in a way that ignores party orthodoxy. While it would also be valid to look at votes where a clear party line exists and a small contingent of one party votes with the other, we make the claim by human observation that this usually happens on highly controversial votes and thus might to subject to other pressures and political calculations, such as riding a trend of overage to vote with the other side in an attempt to appear moderate, rather than internal drivers that we are attempting to get at with our selection criteria.
+
+Once these votes are identified, those bipartisan dissenting votes can be compared to the community groups formed through job history to see if any groups are over represented. With this data, it is also easy to find which Senators never voted against party in this set of votes and identify if they tend to come from particular groups.
+
+	\item Results
+	\item Discussion
+	\item References
+\end{enumerate}
+
+\end{document}
+\grid
+\grid

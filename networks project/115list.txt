@@ -1,0 +1,105 @@
+Richard Shelby	law
+Doug Jones	political	law
+Lisa Murkowski	law
+Dan Sullivan	military	law
+Jeff Flake	nonprofit
+Jon Kyl	law	political
+John Boozman	medical
+Tom Cotton	law	military
+Dianne Feinstein	nonprofit
+Kamala Harris	law
+Michael Bennet	admin
+Cory Gardner	law	business
+Richard Blumenthal	military	political	law
+Chris Murphy	law	political
+Tom Carper	military	admin
+Chris Coons	nonprofit	law
+Bill Nelson	law
+Marco Rubio	law
+Johnny Isakson	real estate
+David Perdue	business
+Brian Schatz	nonprofit
+Mazie Hirono	law
+Mike Crapo	law
+Jim Risch	academic	agricultural	nonprofit
+Dick Durbin	law	academic
+Tammy Duckworth	military	professional
+Joe Donnelly	media	law
+Todd Young	military	military	academic	consultant
+Chuck Grassley	agricultural	academic
+Joni Ernst	agricultural	military
+Pat Roberts	military	media	political
+Jerry Moran	finance	law
+Mitch McConnell	law	political
+Rand Paul	medical
+Bill Cassidy	medical
+John Kennedy	media	law	academic	political
+Susan Collins	political	political	admin	nonprofit
+Angus King	law	political	entrepreneurial	business	media
+Ben Cardin	law
+Chris Van Hollen	political	law
+Elizabeth Warren	law	academic	academic	nonprofit
+Ed Markey	military	law
+Debbie Stabenow	professional	consultant
+Gary Peters	finance	academic
+Amy Klobuchar	law
+Tina Smith	consultant	nonprofit	political
+Roger Wicker	military	law	political	law
+Cindy Hyde-Smith	agricultural
+Claire McCaskill	law	law
+Roy Blunt	admin
+Jon Tester	professional	agricultural
+Steve Daines	business
+Deb Fischer	agricultural
+Ben Sasse	consultant	nonprofit	political	academic	admin
+Dean Heller	finance	finance
+Catherine Cortez Masto	law
+Jeanne Shaheen	professional	entrepreneurial
+Maggie Hassan	law
+Bob Menendez	law
+Cory Booker	law
+Tom Udall	law
+Martin Heinrich	nonprofit	consultant
+Chuck Schumer	law
+Kirsten Gillibrand	law
+Richard Burr	professional	nonprofit
+Thom Tillis	consultant
+John Hoeven	finance
+Heidi Heitkamp	law
+Sherrod Brown	professional
+Rob Portman	law
+Jim Inhofe	business	real estate	business
+James Lankford	nonprofit
+Ron Wyden	professional	nonprofit
+Jeff Merkley	nonprofit	professional
+Bob Casey Jr.	professional	law
+Pat Toomey	finance	entrepreneurial
+Jack Reed	law	military	military
+Sheldon Whitehouse	law
+Lindsey Graham	law	military
+Tim Scott	professional	finance
+John Thune	nonprofit	admin
+Mike Rounds	business
+Lamar Alexander	political	law	business
+Bob Corker	real estate	real estate
+John Cornyn	law
+Ted Cruz	law
+Orrin Hatch	law
+Mike Lee	law	political
+Patrick Leahy	law
+Bernie Sanders	media	trade	media	academic
+Mark Warner	business	entrepreneurial
+Tim Kaine	religious	law	professional
+Patty Murray	professional	political
+Maria Cantwell	business
+Joe Manchin	business
+Shelley Moore Capito	professional	admin
+Ron Johnson	professional	business
+Tammy Baldwin	law
+Mike Enzi	nonprofit	professional	business
+John Barrasso	medical	medical	nonprofit
+Jeff Sessions	law	military
+Al Franken	media
+Luther Strange	law
+Thad Cochran	law
+John McCain	military

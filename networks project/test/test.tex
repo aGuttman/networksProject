@@ -1,0 +1,153 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+
+\documentclass[letterpaper, 10 pt, conference]{ieeeconf}  % Comment this line out
+                                                          % if you need a4paper
+%\documentclass[a4paper, 10pt, conference]{ieeeconf}      % Use this line for a4
+                                                          % paper
+
+\IEEEoverridecommandlockouts                              % This command is only
+                                                          % needed if you want to
+                                                          % use the \thanks command
+\overrideIEEEmargins
+% See the \addtolength command later in the file to balance the column lengths
+% on the last page of the document
+
+
+
+% The following packages can be found on http:\\www.ctan.org
+%\usepackage{graphics} % for pdf, bitmapped graphics files
+%\usepackage{epsfig} % for postscript graphics files
+%\usepackage{mathptmx} % assumes new font selection scheme installed
+%\usepackage{times} % assumes new font selection scheme installed
+%\usepackage{amsmath} % assumes amsmath package installed
+%\usepackage{amssymb}  % assumes amsmath package installed
+\usepackage{graphicx}
+
+\title{\LARGE \bf
+Performance Time Report
+}
+
+%\author{ \parbox{3 in}{\centering Huibert Kwakernaak*
+%         \thanks{*Use the $\backslash$thanks command to put information here}\\
+%         Faculty of Electrical Engineering, Mathematics and Computer Science\\
+%         University of Twente\\
+%         7500 AE Enschede, The Netherlands\\
+%         {\tt\small h.kwakernaak@autsubmit.com}}
+%         \hspace*{ 0.5 in}
+%         \parbox{3 in}{ \centering Pradeep Misra**
+%         \thanks{**The footnote marks may be inserted manually}\\
+%        Department of Electrical Engineering \\
+%         Wright State University\\
+%         Dayton, OH 45435, USA\\
+%         {\tt\small pmisra@cs.wright.edu}}
+%}
+
+\author{Carmina Perez Guerrero - A01226436% <-this % stops a space
+}
+
+
+\begin{document}
+
+
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+
+This report illustrates the difference in performance between a simple lexer of the ac language written in C and another created with Lex, based on their execution time with the same stress example ac program.
+
+\end{abstract}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{INTRODUCTION}
+
+The lexers scan a language called ac (for adding calculator). An informal definition of the pertinent aspects for ac in terms of this report is the following:
+
+In ac, there are only two data types: integer and float. An integer type is a sequence of decimal numerals, as found in most programming languages. A float type allows five fractional digits after the decimal point.
+
+There are three reserved keywords, each limited for simplicity to a single letter: f (declares a float variable), i (declares an integer variable), and p (prints the value of a variable).
+
+The ac language offers only 23 possible variable names, drawn from the lowercase Roman alphabet and excluding the three reserved keywords f, i, and p. Variables must be declared prior to using them.
+
+The formal definition of ac tokens is the following:
+\begin{center}
+\begin{tabular}{ c c }
+\hline
+ Terminal & Regular Expression \\ [0.5ex] 
+ \hline
+ floatdcl & f \\ 
+ intdcl & i \\
+ print & p \\ 
+ id & [a-eghj-oq-z] \\ 
+ assign & "=" \\ 
+ plus & "+" \\ 
+ minus & "-" \\ 
+ multiplication & "*" \\ 
+ division & "/" \\ 
+ inum & [0-9]+ \\ 
+ fnum & [0-9]+"."[0-9]\{1,5\} \\ 
+ comment & [/][/].*\textbackslash n   
+\end{tabular}
+\end{center}
+
+\section{PROBLEM DESCRIPTION}
+
+Lexical Analysis is the first phase of a compiler, it converts the input program into a sequence of tokens, but if it isn't optimal enough it can create bottlenecks in the compiling process when dealing with a large amount of lines of code.
+
+Having two lexers, one written in C and the other one created using Lex, which one proves to be more optimal in processing time and what are the factors that make the difference if there is any.
+
+\section{SOLUTION}
+
+\subsection{Lexer in C}
+To make the scanning of characters more optimal than with if and else, a switch-case statement is used to identify the terminals. Previously the comments were just ignored but a modification was added for it to print "COMMENT" in those cases to have the same process as the Lex one.
+
+\subsection{Lexer with Lex}
+With Lex one just has to define the regular expression rules for the tokens and how they are to be processed, Lex later generates a complete scanner coded in C, transforming the regular expression definitions into an equivalent finite automatomaton.
+
+\subsection{Evaluation}
+To evaluate the different performance in time between the two lexers, we are going to use an ac code\_generator written in python and provided by the professor Victor Rodriguez that creates a stress example with 600,000 lines of code. This random ac code is then to be run with both lexers using the \texttt{time} command in the terminal to get the real time used to scan the ac program.
+
+
+\section{RESULTS}
+The C Lexer's real time while scanning the stress ac code was of 21.166 seconds, while the Lex Lexer took 20.458 seconds. The difference is of 0.708 seconds. \newline
+This can be visualized in the following graph:\newline
+
+\includegraphics[width=0.5\textwidth]{graph}
+
+\section{CONCLUSIONS}
+
+The resulting difference may not seem significant but it is a difference nonetheless. Furthermore, making the lexer with Lex proved to be less time consuming than programming it in C. With all this considered we can safely conclude that the lexer produced with Lex has a better performance than the one programmed in C, which may be because of the use of regular expressions and finite automata.
+
+
+\addtolength{\textheight}{-12cm}   % This command serves to balance the column lengths
+                                  % on the last page of the document manually. It shortens
+                                  % the textheight of the last page by a suitable amount.
+                                  % This command does not take effect until the next page
+                                  % so it should come on the page before the last. Make
+                                  % sure that you do not shorten the textheight too much.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{thebibliography}{99}
+
+\bibitem{c1} C. N. Fischer, R. K. Cytron \& R. J. LeBlanc. ÒCrafting a CompilerÓ, 2nd ed.,Boston: Pearson Education, 2010.
+
+\end{thebibliography}
+
+\end{document}

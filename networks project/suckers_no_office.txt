@@ -1,0 +1,64 @@
+Susan Collins	1
+Joe Donnelly	2
+John Boozman	1
+Marco Rubio	2
+Doug Jones	2
+Brian Schatz	1
+Jon Kyl	2
+Tom Udall	2
+Lisa Murkowski	2
+Johnny Isakson	3
+Pat Roberts	1
+John Cornyn	2
+Shelley Moore Capito	1
+Gary Peters	1
+Debbie Stabenow	1
+Tina Smith	1
+Chris Coons	1
+Dean Heller	4
+Lamar Alexander	3
+Jeanne Shaheen	1
+Cindy Hyde-Smith	1
+John Hoeven	4
+Jack Reed	2
+Maggie Hassan	2
+Dick Durbin	1
+Bill Nelson	2
+Jerry Moran	4
+Orrin Hatch	2
+Roger Wicker	1
+Chuck Schumer	2
+Angus King	3
+Amy Klobuchar	2
+Lindsey Graham	2
+Tammy Duckworth	1
+Ben Cardin	2
+Joe Manchin	3
+Richard Shelby	2
+Martin Heinrich	1
+Tim Scott	1
+Tim Kaine	2
+Luther Strange	2
+Jim Inhofe	3
+Jeff Sessions	2
+Al Franken	1
+Chris Van Hollen	2
+Mark Warner	3
+Heidi Heitkamp	2
+John Thune	1
+Mitch McConnell	2
+Roy Blunt	1
+Rob Portman	2
+Sherrod Brown	1
+Tom Carper	1
+Thad Cochran	2
+Todd Young	1
+Patty Murray	1
+Tammy Baldwin	2
+Bob Casey Jr.	2
+Sheldon Whitehouse	2
+
+1-23
+2-27
+3-6
+4-3

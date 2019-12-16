@@ -1,0 +1,105 @@
+Richard Shelby	law	office
+Doug Jones	political	law	office
+Lisa Murkowski	law	office
+Dan Sullivan	military	law	office
+Jeff Flake	nonprofit	office
+Jon Kyl	law	political	office
+John Boozman	medical	office
+Tom Cotton	law	military	office
+Dianne Feinstein	nonprofit	office
+Kamala Harris	law	office
+Michael Bennet	admin	office
+Cory Gardner	law	business	office
+Richard Blumenthal	military	political	law	office
+Chris Murphy	law	political	office
+Tom Carper	military	admin	office
+Chris Coons	nonprofit	law	office
+Bill Nelson	law	office
+Marco Rubio	law	office
+Johnny Isakson	real estate	office
+David Perdue	business	
+Brian Schatz	nonprofit	office
+Mazie Hirono	law	office
+Mike Crapo	law	office
+Jim Risch	academic	agricultural	nonprofit	office
+Dick Durbin	law	academic	office
+Tammy Duckworth	military	professional	office
+Joe Donnelly	media	law	office
+Todd Young	military	military	academic	consultant	office
+Chuck Grassley	agricultural	academic	office
+Joni Ernst	agricultural	military	office
+Pat Roberts	military	media	political	office
+Jerry Moran	finance	law	office
+Mitch McConnell	law	political	office
+Rand Paul	medical	
+Bill Cassidy	medical	office
+John Kennedy	media	law	academic	political	office
+Susan Collins	political	political	admin	nonprofit	office
+Angus King	law	political	entrepreneurial	business	media	office
+Ben Cardin	law	office
+Chris Van Hollen	political	law	office
+Elizabeth Warren	law	academic	academic	nonprofit	office
+Ed Markey	military	law	office
+Debbie Stabenow	professional	consultant	office
+Gary Peters	finance	academic	office
+Amy Klobuchar	law	office
+Tina Smith	consultant	nonprofit	political	office
+Roger Wicker	military	law	political	law	office
+Cindy Hyde-Smith	agricultural	office
+Claire McCaskill	law	law	office
+Roy Blunt	admin	office
+Jon Tester	professional	agricultural	office
+Steve Daines	business	office
+Deb Fischer	agricultural	office
+Ben Sasse	consultant	nonprofit	political	academic	admin	office
+Dean Heller	finance	finance	office
+Catherine Cortez Masto	law	office
+Jeanne Shaheen	professional	entrepreneurial	office
+Maggie Hassan	law	office
+Bob Menendez	law	office
+Cory Booker	law	office
+Tom Udall	law	office
+Martin Heinrich	nonprofit	consultant	office
+Chuck Schumer	law	office
+Kirsten Gillibrand	law	office
+Richard Burr	professional	nonprofit	office
+Thom Tillis	consultant	office
+John Hoeven	finance	office
+Heidi Heitkamp	law	office
+Sherrod Brown	professional	office
+Rob Portman	law	office
+Jim Inhofe	business	real estate	business	office
+James Lankford	nonprofit	office
+Ron Wyden	professional	nonprofit	office
+Jeff Merkley	nonprofit	professional	office
+Bob Casey Jr.	professional	law	office
+Pat Toomey	finance	entrepreneurial	office
+Jack Reed	law	military	military	office
+Sheldon Whitehouse	law	office
+Lindsey Graham	law	military	office
+Tim Scott	professional	finance	office
+John Thune	nonprofit	admin	office
+Mike Rounds	business	office
+Lamar Alexander	political	law	business	office
+Bob Corker	real estate	real estate	office
+John Cornyn	law	office
+Ted Cruz	law	office
+Orrin Hatch	law	
+Mike Lee	law	political	office
+Patrick Leahy	law	office
+Bernie Sanders	media	trade	media	academic	office
+Mark Warner	business	entrepreneurial	office
+Tim Kaine	religious	law	professional	office
+Patty Murray	professional	political	office
+Maria Cantwell	business	office
+Joe Manchin	business	office
+Shelley Moore Capito	professional	admin	office
+Ron Johnson	professional	business	
+Tammy Baldwin	law	office
+Mike Enzi	nonprofit	professional	business	office
+John Barrasso	medical	medical	nonprofit	office
+Jeff Sessions	law	military	office
+Al Franken	media	
+Luther Strange	law	office
+Thad Cochran	law	office
+John McCain	military	office
